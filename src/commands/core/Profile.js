@@ -25,7 +25,7 @@ export default class Command extends BaseCommand {
         const { name, data } = getRank(exp)
         const url =
             (await this.client.profilePictureUrl(M.sender.jid, 'image').catch(() => null)) ??
-            'https://static.wikia.nocookie.net/v__/images/7/73/Fuseu404notfound.png/revision/latest?cb=20171104190424&path-prefix=vocaloidlyrics'
+            'https://telegra.ph/file/6377addc7e12eab81c301.jpg'
         return void (await M.replyRaw({
             caption: `
 🍥 *Username: ${M.sender.username}*
