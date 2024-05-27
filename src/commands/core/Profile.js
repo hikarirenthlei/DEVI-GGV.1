@@ -28,13 +28,13 @@ export default class Command extends BaseCommand {
             'https://telegra.ph/file/6377addc7e12eab81c301.jpg'
         return void (await M.replyRaw({
             caption: `
-🍥 *Username: ${M.sender.username}*
+🍥 *Username: $hikari*
 
-📑 *Bio: ${bio}*
+📑 *Bio: $anything goes*
 
-🌟 *Experience: ${exp}*
+🌟 *Experience: $4000*
 
-🏅 *Rank: ${name} ${data.emoji}*
+🏅 *Rank: $ace ${data.emoji}*
 
 👑 *Admin: _${M.group?.admins.includes(M.sender.jid) ? 'Yes' : 'Not'}_ of ${M.group?.title}*
 
